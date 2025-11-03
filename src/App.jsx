@@ -3,6 +3,7 @@ import HeroParallax from './components/HeroParallax';
 import ChainBackdrop from './components/ChainBackdrop';
 import Book from './components/Book';
 import ProjectsIndex from './components/ProjectsIndex';
+import ContactSection from './components/ContactSection';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
           <Book />
         </section>
 
-        <section>
+        <section className="mb-24">
           <h2 className="text-3xl sm:text-4xl font-black tracking-tight mb-4">
             Project Index
           </h2>
@@ -30,6 +31,8 @@ function App() {
           </p>
           <ProjectsIndex />
         </section>
+
+        <ContactSection />
       </main>
 
       <footer className="relative z-10 border-t border-zinc-800/70 py-10">
